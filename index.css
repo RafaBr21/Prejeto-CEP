@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('imagens/desenho-sol.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-family: sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.container {
+    background-color: blueviolet;
+    border-radius: 5px;
+    border: none;
+    width: 450px;
+    max-width: 100%;
+}
+
+.titulo {
+    margin: 0;
+    text-align: center;
+    font-weight: 600;
+    color: #000080;
+    font-size: 30px;
+}
+
+.form {
+    padding: 20px 20px;
+}
+
+.form-control {
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+    position: relative;
+}
+ 
+.form-control label {
+    display: inline-block;
+    margin-bottom: 5px;
+    color: #000080;
+}
+
+.form-control input {
+    border: 2px solid #f0f0f0;
+    border-radius: 15px;
+    display: block;
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+}
